@@ -1,3 +1,9 @@
+% Script para obtención de ratas de convergencia de 
+% Esquema interno: Diferencias Finitas Compactas Pade (Lele)
+% Orden Teorico esquema interno: 6
+% Esquema fronteras: Compacto sesgado (atrás o adelante según Lele)
+% Orden teórico esquema fronteras: 
+
 %Longitud del dominio en x
 Lx=1;
 %Longitud del dominio en y
@@ -9,8 +15,6 @@ Lz=0.5;
 %LLenado de la matriz de diferenciaci?n usando diferencias finitas
 %compactas tipo Pad? de sexto orden
 a=1.0/3.0; b=14.0/9.0; g=1.0/9.0;
-
-
 
 %N?mero de divisiones en y
 ny=50;
