@@ -1,3 +1,5 @@
+% Generando encabezado de documentacion
+
 
 %Longitud del dominio en x
 Lx=1;
