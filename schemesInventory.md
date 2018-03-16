@@ -1,9 +1,12 @@
 #
 # File for schemes identification and labelling  
 #
-#- Id: Id label
-#-  Compact: True/False
-#-  Periodic: Is the matrix Toeplitz (for periodic)? or 
-Id    |  Compact  |  Periodic  |  Theoretical Order           |   Scheme short description      
-P01,0,1,I2_B0,Explicit Centered Finite Difference cyclic
-P02,1,1      |  Internal 6; Boundary: NA    | Sixth-order Pade Inner scheme Compact Centered Finite Difference cyclic   
+#- Id: Id label;
+#- Compact schemes: True/False;
+#- Periodic operator: True/False;
+#- Internal theoretical order: Accuracy order for internal scheme;
+#- Boundary theoretical order: Accuracy order for boundaries scheme;
+#-
+Id,Compact,Periodic,internalTheoreticalOrder,boundaryTheoreticalOrder,Scheme short description      
+P01,0,1,2,0,"Explicit Centered Finite Difference cyclic domain"
+P02,1,1,6,0,"Sixth-order Pade Inner scheme Compact Centered Finite Difference cyclic domain"   
